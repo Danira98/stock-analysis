@@ -76,7 +76,7 @@ We also included our formating at the end of our code instead of creating a new 
 After running our VBScripts, We are able to obain the following results:
 ![Worksheet ss](https://user-images.githubusercontent.com/111034667/188967961-7be383e0-17fd-4a2b-baec-76a3e84989fd.png)
 
-We can observe that the companies with the positive return are ENPH and RUN, and if we pay attention to the company DAQO, abbreviated as DQ, it has a -62.6% which means that it would be ideal for Steve  to advice his parents to consider investing in stocks like ENPH and RUN instead or other companies with a smaller negative percentage retunr like VSLR or TERP if they choose to invest in multiple stocks.
+We can observe that the companies with the positive return are ENPH and RUN, and if we pay attention to the company DAQO, abbreviated as DQ, it has a -62.6% which means that it would be ideal for Steve  to advice his parents to consider investing in stocks like ENPH and RUN instead or other companies with a smaller negative percentage return like VSLR or TERP if they choose to invest in multiple stocks.
 
 By running both VBScripts, AllStocksAnalysis and AllStocksAnalysisRefactored, we can observe that the refactored code runs faster with the same outcome.The following images show the elapsed times for each code.
 
