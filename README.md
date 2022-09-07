@@ -8,7 +8,7 @@ The purpose of this project is to create a vba script that will return the total
 ### Code:
 The AllStocksAnalysisRefactored code was designed to take less time to analyse the data but in order to accomplish this, we had to modify our initial AllStocksAnalysis code.
 
-The first change we made was create three arrays to hold the ticker volumes, the starting prices and the ending prices, and a ticker index to use as a variable in our for loops. We use these new arrays that hold 12 variables in the for loops we created.
+The first change we made was create three arrays to hold the ticker volumes, the starting prices and the ending prices, and a ticker index to use as an index in our for loops. We use these new arrays that hold 12 variables in the for loops we created.
 ```
 '1a) Create a ticker Index
     
@@ -58,7 +58,7 @@ For i = 0 To 11
     Next i
 
 ```
-We also include a new for loop to return the value of our arrays tota volumes, ending price and starting price
+We included a new for loop to return the value of our arrays tota volumes, ending price and starting price
 ```
 '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
     For i = 0 To 11
@@ -73,10 +73,10 @@ We also include a new for loop to return the value of our arrays tota volumes, e
 ```
 We also included our formating at the end of our code instead of creating a new VBScript to do it.
 ### Results:
-After running our VBScripts, We are able to obain the following results:
+After running our VBScripts, We are able to obtain the following results:
 ![Worksheet ss](https://user-images.githubusercontent.com/111034667/188967961-7be383e0-17fd-4a2b-baec-76a3e84989fd.png)
 
-We can observe that the companies with the positive return are ENPH and RUN, and if we pay attention to the company DAQO, abbreviated as DQ, it has a -62.6% which means that it would be ideal for Steve  to advice his parents to consider investing in stocks like ENPH and RUN instead or other companies with a smaller negative percentage return like VSLR or TERP if they choose to invest in multiple stocks.
+We can observe that the companies with the positive return are ENPH and RUN, and if we pay attention to the company DAQO, abbreviated as DQ, it has a -62.6% which means that it would be ideal for Steve to advice his parents to consider investing in stocks like ENPH and RUN instead or other companies with a smaller negative percentage return like VSLR or TERP if they choose to invest in multiple stocks.
 
 By running both VBScripts, AllStocksAnalysis and AllStocksAnalysisRefactored, we can observe that the refactored code runs faster with the same outcome.The following images show the elapsed times for each code.
 
@@ -90,8 +90,8 @@ By running both VBScripts, AllStocksAnalysis and AllStocksAnalysisRefactored, we
     
  ## Summary:
  ### Advantages and Disadvantages of Refactored code:
- Coding in any programming language can be a tedious task, and our goal as a programmer is to make a code that runs efficiently enough to get to our goal and as clear  as time allows us to. By refactoring our code, we will be able to use less memory, improve the logic of the code which makes it easier to read to future uses,and it usually takes fewer steps. Unfortunately, although refactoring our code is ideal to make it more efficient, often times programmers do not have the time to spend thinking about how to make their code more efficient;they usually create a code that will be able to get us to the goal within a deadline given, which sometimes can lead to codes that take up more memory but that work perfectly fine for our end goal.
+ Coding in any programming language can be a tedious task, and our goal as a programmer is to make a code that runs efficiently enough to get to our goal within a timely matter and as clear as time allows us to. By refactoring our code, we will be able to use less memory, improve the logic of the code which makes it easier to read to future uses,and it usually takes fewer steps. Unfortunately, although refactoring our code is ideal to make it more efficient, often times programmers do not have the time to spend thinking about how to make their code more efficient;they usually create a code that will be able to get us to the goal within a deadline given, which sometimes can lead to codes that take up more memory but work perfectly fine for our end goal.
     
 ### Advantages and Disadvantages of Refactored VBScript:
-The refactored VBScript allows us to run our analysis faster, and overall it is easier to understand , even with beginner knowledge of coding VBA. It unfortunately does take longer to code since we have to think of ways to make the code easier to understand and more efficient. I personally had trouble understanding how some of the loops were going to be set up but after going back and forth with the original script, reading the hints given in the assignment, and following a similar structure to the hint,  I was able to figure out a code that worked. The advantage of our original script is that it was easier to set up,smaller,smaller amount of loops needed since nested loops were used, but it did take longer to run and also the fomatting of our worksheet wasn't included, which lead us to create and additional VBScript to do so, whereas our refactored code includes the formatting.
+The refactored VBScript allows us to run our analysis faster, and overall it is easier to understand , even with beginner knowledge of coding VBA. It unfortunately does take longer to code since we have to think of ways to make the code easier to understand and more efficient. I personally had trouble understanding how some of the loops were going to be set up but after going back and forth with the original script, reading the hints given in the assignment, and following a similar structure to the hint,  I was able to figure out a code that worked. The advantage of our original script is that it was easier to set up,shorter,smaller amount of loops needed since nested loops were used, but it did take longer to run and also the fomatting of our worksheet wasn't included, which lead us to create and additional VBScript to do so, whereas our refactored code includes the formatting.
     
